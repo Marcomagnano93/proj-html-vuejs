@@ -12,6 +12,11 @@
     flex-wrap: nowrap;
 }
 
+.center-align{
+    justify-content: space-between;
+    align-items: center;
+}
+
 // ******COLS******
 .col-3 {
     width: calc(3 * 100% / 12);
