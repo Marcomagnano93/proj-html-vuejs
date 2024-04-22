@@ -16,11 +16,16 @@
   </header>
 
   <main>
-
+    <!-- Hero Section -->
+    <!-- Info Section -->
+    <!-- Services Section -->
+    <!-- img + more info Section -->
+    <!-- reviews Section -->
+    <!-- subscribe card -->
   </main>
 
   <footer>
-
+    
   </footer>
 </template>
 
