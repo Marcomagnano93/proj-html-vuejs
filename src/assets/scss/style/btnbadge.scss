@@ -13,3 +13,12 @@
 .pill-btn:hover {
     background-color: var(--brand-ocean);
 }
+
+.social-badge {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
