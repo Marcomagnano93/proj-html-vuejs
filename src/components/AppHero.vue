@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="container-100">
+    <div class="container-100 btm-spacing">
         <img class="hero-img absolute" src="../../public/img/hero.png" alt="">
         <div class="hero container">
             <!-- hero text -->

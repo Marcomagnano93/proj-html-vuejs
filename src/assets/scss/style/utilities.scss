@@ -7,11 +7,23 @@
     gap: 12px;
 }
 
+.btm-spacing {
+    margin-bottom: calc(10% + 250px);
+}
 //display
 
 .d-flex-row{
     display: flex;
     gap: 8px;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.align-center{
+    align-items: center;
 }
 
 //position
