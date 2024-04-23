@@ -3,18 +3,38 @@
     padding: 20px 0;
 }
 
+.py-40{
+    padding: 40px 0;
+}
+
 .gap-12{
     gap: 12px;
 }
 
+.gap-24{
+    gap: 24px;
+}
+
+.gap-40{
+    gap: 40px;
+}
+
 .btm-spacing {
     margin-bottom: calc(10% + 250px);
+}
+
+.btm-light-spacing {
+    margin-bottom: 90px;
 }
 //display
 
 .d-flex-row{
     display: flex;
     gap: 8px;
+}
+
+.column {
+    flex-direction: column;
 }
 
 .centered {
@@ -33,4 +53,10 @@
 
 .absolute {
     position: absolute;
+}
+
+//Style text
+
+.text-center {
+    text-align: center;
 }

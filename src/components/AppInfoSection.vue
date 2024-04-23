@@ -4,7 +4,7 @@
 
 <template>
 <img class="dog-head-right" src="../../public/img/dog-logo.png" alt="">
-<div class="container">
+<div class="container btm-light-spacing">
     <div class="row">
         <div class="col-6">
             <img src="../../public/img/about.png" alt="">
