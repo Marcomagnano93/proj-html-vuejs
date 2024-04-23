@@ -7,9 +7,10 @@
     justify-content: center;
     align-items: center;
     border-radius: 999px;
+    cursor: pointer;
 }
 
-.pill-btn:hover {
+.pill-btn:hover, .square-btn:hover {
     background-color: var(--brand-ocean);
 }
 
@@ -20,4 +21,15 @@
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+.square-btn{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
 }

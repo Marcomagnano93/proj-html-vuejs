@@ -12,21 +12,25 @@ export default{
     <div class="container-100 bg-sand py-20">
         <div class="container">
             <div class="row center-align">
+                <!-- contacts -->
                 <div class="contacts">
                    <p><font-awesome-icon icon="fa-solid fa-envelope" class="cl-caki"/><span>info@example.com</span> </p>
                    <p><font-awesome-icon icon="fa-solid fa-phone" class="cl-caki"/><span>+1(817)901 337</span></p>
                 </div>
+                <!-- social links -->
                 <div>
                     <AppSocialLinks/>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container py-20">
+    <nav class="container py-20">
         <div class="row center-align gap-12">
+            <!-- main logo -->
             <div class="logo">
-                <img src="../../public/logo.png" alt="">
+                <a href="#"><img src="../../public/logo.png" alt=""></a>
             </div>
+            <!-- nav menu -->
             <ul class="refereces cl-dark">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -34,15 +38,12 @@ export default{
                 <li><a href="#">Training</a></li>
                 <li><a href="#">Blogs</a></li>
             </ul>
+            <!-- subscribe btn -->
             <div class="pill-btn bg-caki">
                 <a href="#">Get in Toch!</a>
             </div>
         </div>
-    </div>
-
-
-    
-
+    </nav>
 </template>
 
 <style scoped>
