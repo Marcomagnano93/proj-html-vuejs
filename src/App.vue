@@ -3,13 +3,15 @@
   import AppHero from "./components/AppHero.vue";
   import AppInfoSection from "./components/AppInfoSection.vue";
   import ServicesSection from "./components/ServicesSection.vue";
+  import AppFooter from "./components/AppFooter.vue";
 
   export default{
     components: {
       AppHeader,
       AppHero,
       AppInfoSection,
-      ServicesSection
+      ServicesSection,
+      AppFooter
     }
   }
 
@@ -39,7 +41,7 @@
   </main>
 
   <footer>
-    
+    <AppFooter/>
   </footer>
 </template>
 

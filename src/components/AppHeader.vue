@@ -1,5 +1,5 @@
 <script>
- import AppSocialLinks from "../components/AppSocialLinks.vue";
+ import AppSocialLinks from "./AppSocialLinks.vue";
 
 export default{
   components: {
