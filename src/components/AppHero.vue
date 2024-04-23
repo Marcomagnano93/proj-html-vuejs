@@ -8,7 +8,7 @@
         <div class="hero container">
             <!-- hero text -->
             <h1>Welcome to <br> <span>DogMilo</span> Pets</h1>
-            <p>Lorem ipsum, dolor sit amet consectet adipis elit aliquam <br> and reprehenderit consequatur.</p>
+            <p>Lorem ipsum, dolor sit amet and adipis elit aliquam <br> and reprehenderit consequatur.</p>
             <!-- buttons -->
             <div class="d-flex-row">
                 <div class="pill-btn bg-caki"><a href="#">Get Started</a></div>

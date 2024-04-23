@@ -4,6 +4,7 @@
   import AppInfoSection from "./components/AppInfoSection.vue";
   import ServicesSection from "./components/ServicesSection.vue";
   import AppFooter from "./components/AppFooter.vue";
+  import MoreInfoSection from "./components/MoreInfoSection.vue";
 
   export default{
     components: {
@@ -11,7 +12,8 @@
       AppHero,
       AppInfoSection,
       ServicesSection,
-      AppFooter
+      AppFooter,
+      MoreInfoSection
     }
   }
 
@@ -36,6 +38,9 @@
       <ServicesSection/>
     </section>
     <!-- img + more info Section -->
+    <section>
+      <MoreInfoSection/>
+    </section>
     <!-- reviews Section -->
     <!-- subscribe card -->
   </main>
