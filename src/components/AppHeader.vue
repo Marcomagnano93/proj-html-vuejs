@@ -2,6 +2,11 @@
  import AppSocialLinks from "./AppSocialLinks.vue";
 
 export default{
+    data(){
+        return {
+            menu: ['Home', 'About', 'Services', 'Training', 'Blogs']
+        }
+    },
   components: {
     AppSocialLinks,
   }
@@ -32,11 +37,9 @@ export default{
             </div>
             <!-- nav menu -->
             <ul class="refereces cl-dark">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Training</a></li>
-                <li><a href="#">Blogs</a></li>
+                <li v-for="(page, i) in menu" :key="i">
+                    <a href="#">{{ page }}</a>
+                </li>
             </ul>
             <!-- subscribe btn -->
             <div class="pill-btn bg-caki">
