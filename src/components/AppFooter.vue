@@ -81,7 +81,7 @@ export default{
         </div>
     </div>
     <div class="container-100 bg-black text-center py-40">
-        <p class="copy">Copyright 2022 AttDogMilo.com</p>
+        <p class="copy">Copyright 2022 by AttDogMilo.com</p>
     </div>
 
 </template>
@@ -128,7 +128,7 @@ h3 {
 }
 
 .copy{
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 600;
 }
 </style>

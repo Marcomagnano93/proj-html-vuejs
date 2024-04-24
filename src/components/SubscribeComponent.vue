@@ -6,9 +6,11 @@
     <div class="container-100 pannel-wrapper">
         <div class="subscribe-pannel bg-caki">
             <div class="row">
+                <!-- left side -->
                 <div class="col-6 news-logo">
                     <img src="../../public/img/news.png" alt="">
                 </div>
+                <!-- right side -->
                 <div class="col-6 pannel-body">
                     <h3>Subscribe to Our Newsletter</h3>
                     <div class="input-section">
@@ -17,14 +19,10 @@
                             <font-awesome-icon icon="fa-solid fa-at" />
                         </div>
                     </div>
-                    
-                    
                 </div>
             </div>
         </div>
     </div>
-
-
 </template>
 
 <style scoped>
