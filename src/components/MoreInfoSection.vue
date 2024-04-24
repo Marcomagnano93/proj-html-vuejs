@@ -5,16 +5,18 @@
 <template>
 <div class="conteiner-100">
     <div class="row">
-        <div class="col-6 poster">
+        <div class="poster col-6">
             <img src="../../public/img/why.png" alt="">
         </div>
-        <div class="col-6 cards">
+        <div class="cards col-6">
+            <!-- icon & paragraph title -->
             <div class="d-flex-row align-center">
                 <img src="../../public/img/dog-icon.png" alt="">
                 <a class="cl-sand" href="#">Choose Us</a>
             </div>
+
             <h2>Why Choose Us?</h2>
-            
+            <!-- Info Cards -->
                 <div class="why-card">
                     <div class="card-img"><img src="../../public/img/w-3.png" alt=""></div>
                     <div class="card-body">
@@ -42,24 +44,46 @@
 </template>
 
 <style scoped>
+.poster img{
+    width: 100%;
+}
+
+/* Spacing cards */
 
 .cards {
-    padding: 50px 50px 0 0; 
+    padding: 50px 50px 0 50px; 
 }
 
 .second{
-    padding-left: 110px;
+    margin-left: 110px;
 }
 
 .third{
-    padding-left: 260px;
+    margin-left: 260px;
 }
+
+/* cards */
+
 .why-card{
     position: relative;
     display: flex;
-    gap: 24px;
     margin-bottom: 32px;
 }
+
+.card-img  {
+    width: 120px;
+    position: absolute;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    line-height: 32px;
+    margin-left: 130px;
+}
+
+/* Text style */
 
 h2{
     font-size: 32px;
@@ -69,20 +93,6 @@ h2{
 h3{
     font-size: 20px;
     font-weight: 300;
-}
-
-.card-img  {
-    width: 120px;
-    position: absolute;
-
-}
-
-.card-body{
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    line-height: 32px;
-    padding-left: 130px;
 }
 
 p{
