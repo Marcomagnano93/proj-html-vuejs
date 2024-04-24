@@ -6,6 +6,7 @@
   import AppFooter from "./components/AppFooter.vue";
   import MoreInfoSection from "./components/MoreInfoSection.vue";
   import ReviewSection from "./components/ReviewSection.vue";
+  import SubscribeComponent from "./components/SubscribeComponent.vue";
 
   export default{
     components: {
@@ -15,7 +16,8 @@
       ServicesSection,
       AppFooter,
       MoreInfoSection,
-      ReviewSection
+      ReviewSection,
+      SubscribeComponent
     }
   }
 
@@ -48,6 +50,9 @@
       <ReviewSection/>
     </section>
     <!-- subscribe card -->
+
+      <SubscribeComponent/>
+
   </main>
 
   <footer>
@@ -55,6 +60,6 @@
   </footer>
 </template>
 
-<style scoped>
+<style>
 
 </style>
