@@ -29,30 +29,28 @@
   </header>
 
   <main>
-    <!-- Hero Section -->
-    <section>
-      <AppHero/>
-    </section>
-    <!-- Info Section -->
-    <section>
-      <AppInfoSection/>
-    </section>
-    <!-- Services Section -->
-    <section>
-      <ServicesSection/>
-    </section>
-    <!-- img + more info Section -->
-    <section>
-      <MoreInfoSection/>
-    </section>
-    <!-- reviews Section -->
-    <section>
-      <ReviewSection/>
-    </section>
-    <!-- subscribe card -->
-
-      <SubscribeComponent/>
-
+  <!-- Hero Section -->
+  <section>
+    <AppHero/>
+  </section>
+  <!-- Info Section -->
+  <section>
+    <AppInfoSection/>
+  </section>
+  <!-- Services Section -->
+  <section>
+    <ServicesSection/>
+  </section>
+  <!-- img + more info Section -->
+  <section>
+    <MoreInfoSection/>
+  </section>
+  <!-- reviews Section -->
+  <section>
+    <ReviewSection/>
+  </section>
+  <!-- subscribe card -->
+    <SubscribeComponent/>
   </main>
 
   <footer>
