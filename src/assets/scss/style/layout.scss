@@ -51,3 +51,14 @@
   left: 0;
   width: 180px;
 }
+
+//Cards
+
+.review-card{
+  width: 340px;
+  height: 285px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

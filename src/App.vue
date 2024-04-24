@@ -5,6 +5,7 @@
   import ServicesSection from "./components/ServicesSection.vue";
   import AppFooter from "./components/AppFooter.vue";
   import MoreInfoSection from "./components/MoreInfoSection.vue";
+  import ReviewSection from "./components/ReviewSection.vue";
 
   export default{
     components: {
@@ -13,7 +14,8 @@
       AppInfoSection,
       ServicesSection,
       AppFooter,
-      MoreInfoSection
+      MoreInfoSection,
+      ReviewSection
     }
   }
 
@@ -42,6 +44,9 @@
       <MoreInfoSection/>
     </section>
     <!-- reviews Section -->
+    <section>
+      <ReviewSection/>
+    </section>
     <!-- subscribe card -->
   </main>
 
