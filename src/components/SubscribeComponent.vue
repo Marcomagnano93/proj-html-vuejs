@@ -7,8 +7,10 @@
         <div class="subscribe-pannel bg-caki">
             <div class="row">
                 <!-- left side -->
-                <div class="col-6 news-logo">
-                    <img src="../../public/img/news.png" alt="">
+                <div class="col-6">
+                    <div class="news-logo">
+                        <img src="../../public/img/news.png" alt="">
+                    </div>
                 </div>
                 <!-- right side -->
                 <div class="col-6 pannel-body">
@@ -28,14 +30,12 @@
 <style scoped>
 /* Layout */
 .news-logo{
-  position: relative;
-}
-.news-logo img{
     width: 340px;
     position: absolute;
-    bottom: -11px;
-    left: 38px
+    bottom: -4px;
+    left: 38px;
 }
+
 
 .subscribe-pannel{
     width: 880px;
@@ -86,5 +86,4 @@ h3{
     font-size: 24px;
     font-weight: 700;
 }
-
 </style>
