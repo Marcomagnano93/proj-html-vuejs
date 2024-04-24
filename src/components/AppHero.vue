@@ -3,8 +3,7 @@
 </script>
 
 <template>
-    <div class="container-100 btm-spacing">
-        <img class="hero-img absolute" src="../../public/img/hero.png" alt="">
+    <div class="container-100 hero-background">
         <div class="hero container">
             <!-- hero text -->
             <h1>Welcome to <br> <span>DogMilo</span> Pets</h1>
@@ -21,13 +20,15 @@
 </template>
 
 <style scoped>
-.hero-img {
-    object-fit: cover;
-    width: 100%;
+.hero-background{
+    background-image: url(../../public/img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 150px;
+    margin-bottom: 70px;
 }
 
 .hero {
-    position: sticky;
     color: white;
     display: flex;
     flex-direction: column;
@@ -35,7 +36,7 @@
 }
 
 h1{
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 600;
     padding-top: 10%;
 }
@@ -45,7 +46,7 @@ h1 span {
 }
 
 p {
-    font-size: 24px;
+    font-size: 16px;
     line-height: 40px;
 }
 
